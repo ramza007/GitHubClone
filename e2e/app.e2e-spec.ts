@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('githubclone App', () => {
+describe('search-user App', () => {
   let page: AppPage;
 
   beforeEach(() => {

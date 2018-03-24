@@ -1,3 +1,3 @@
 export class Repos {
-    constructor(private access_token: string, ) { }
+    constructor(private access_token:string,){}
 }
