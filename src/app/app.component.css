@@ -6,6 +6,13 @@
   opacity: 0.8;
   margin: 10px;
 }
-p {
+
+
+h3 {
   font-size: 50px;
+}
+
+p {
+  font-size: 10px;
+  text-align: center;
 }
