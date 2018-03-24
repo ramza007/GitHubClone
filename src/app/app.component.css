@@ -2,8 +2,8 @@
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 30px;
-  background-color: orange;
-  opacity: 0.75;
+  background-color: rgb(84, 84, 189);
+  opacity: 0.9;
   margin: 10px;
 }
 
@@ -16,4 +16,14 @@ h3 {
 p {
   font-size: 10px;
   text-align: center;
+}
+
+body {
+  background-image: url("/assets/git.png");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container{
+  opacity: 0.8;
 }
