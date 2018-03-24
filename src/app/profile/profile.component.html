@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-12">
     <form class="well">
       <div class="form-group">
@@ -67,4 +67,64 @@
         <hr>
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <!--experimental-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <form>
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Enter a GitHub username" name="username" [(ngModel)]="username" (keyup)="searchUser()">
+          </div>
+        </form>
+  
+  
+        <p style="text-align:center;">My Profile</p>
+        <div class="container">
+          <div class="grid">
+            <div>
+              <img class="profile-img img-thumbnail" src="{{user.avatar_url}}">
+              <p style="font-weight:bold;">{{user.name}}</p>
+              <p>{{user.login}}</p>
+              <p>{{user.bio}}</p>
+              <p>{{user.location}}</p>
+              <p>{{user.email}}</p>
+              <hr>
+              <p>{{user.organisation}}
+                <img src="{{user.organizations_url}}">
+            </div>
+            <div class="col-md-4">
+              <div class="track">
+                <p style="border-bottom:solid;border-color:purple; padding-bottom:15px;">Repositories:
+                  <span class=label-label-primary>{{user.public_repos}}</span>
+                </p>
+                <p style="border-bottom:solid;border-color:purple; padding-bottom:15px;">Followers: {{user.followers}}</p>
+                <p style="border-bottom:solid;border-color:purple; padding-bottom:15px;">Following: {{user.following}}</p>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Repos</h3>
+                </div>
+                <div class="panel-body">
+                  <div *ngFor="let repo of repos">
+                    <div class="row">
+                      <div class="col-md-9">
+                        <h4>
+                          <a href="user.html_url" target="_blank">{{repo.name}}</a>
+                        </h4>
+                        <p>{{repo.description}}</p>
+                      </div>
+                      <div class="col-md-3">
+                        <span class="label label-info">{{repo.watchers}} Watchers</span>
+                        <span class="label label-success">{{repo.fork}} Forks</span>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
