@@ -4,9 +4,11 @@ import 'rxjs/add/operator/map';
 import {User} from './user'
 import {Repos} from './repos'
 import {environment} from '../environments/environment'
+
+
+
 @Injectable()
 export class GithubService {
-//  private apiUrl :string = environment.apiUrl;
   username:string;
 
   constructor(private _http: HttpClient){
