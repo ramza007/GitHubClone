@@ -1,22 +1,11 @@
-.default {
-  background-image: url("/assets/mingo.jpeg");
-  width:100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right:70px;
-  height:320px;
-  background-attachment: fixed;
+.jumbotron {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 30px;
+  background-color: orange;
+  opacity: 0.8;
+  margin: 10px;
 }
-a {
-  font-size: 45px;
-  color: maroon;
-  font-family: monospace;
-  padding-top: 40px;
-  border-bottom: 4px solid lime;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius:25px;
-}
-.navbar-brand {
-  line-height: 200px;
-  float:none;
+p {
+  font-size: 50px;
 }
