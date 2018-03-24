@@ -3,13 +3,14 @@
   font-family: 'Times New Roman', Times, serif;
   border-radius: 30px;
   background-color: orange;
-  opacity: 0.8;
+  opacity: 0.75;
   margin: 10px;
 }
 
 
 h3 {
   font-size: 50px;
+  font: outline;
 }
 
 p {
