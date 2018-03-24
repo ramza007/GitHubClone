@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  apiUrl:"dc677dc5a00cf0815abbacbeca419eab922ed3ac "
+  apiUrl:"dc677dc5a00cf0815abbacbeca419eab922ed3ac"
 };
