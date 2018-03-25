@@ -1,3 +1,4 @@
+<div class="container-boby">
 <!--Search bar area-->
 <div class="row">
   <div class="col-md-12">
@@ -13,7 +14,7 @@
 <div *ngIf="user">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title" style="font-size: 20px;">GitHub Name: {{user.name}}</h3>
+      <h3 class="panel-title" style="font-size: 20px;"><strong>GitHub Name: {{user.name}}</strong></h3>
     </div>
     <div class="panel-body">
       <div class="row">
@@ -53,7 +54,7 @@
 <div class="container" style="padding: right 500px;">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title" style="text-align:center">User Repos</h3>
+      <h3 class="panel-title" style="text-align:center"><strong>User Repos</strong></h3>
     </div>
     <div class="panel-body">
       <div *ngFor="let repo of repos">
@@ -73,4 +74,6 @@
       </div>
     </div>
   </div>
+</div>
+</div>
 </div>
